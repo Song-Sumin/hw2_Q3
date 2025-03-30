@@ -12,15 +12,19 @@ and if you want an explanation of the code, scroll down below.
 ## How to run
 
 1. Click code and download as zip file.
-![image](https://github.com/user-attachments/assets/9b9c6e66-7f7d-4aeb-a093-bb1e542b034b)
+![image](https://github.com/user-attachments/assets/c8da34e7-1db2-47e6-a841-e0bd1dd7c911)
 
 2. Unzip a download file
-![image](https://github.com/user-attachments/assets/6d1d1e3d-eff9-42f1-a719-32c5ae6ca80b)
+![image](https://github.com/user-attachments/assets/d7f66b32-37b6-41ca-a07a-a8ea596d7228)
 
 3. Open hw2_Q1-master. Double click hw2_Q1-master and opne OpenglViewer.sln
-![image](https://github.com/user-attachments/assets/a8c3a769-00e4-47e4-9e46-2a08c8ce52a4)
+![image](https://github.com/user-attachments/assets/0c2fa2b8-444e-46a4-8aee-49ec6ea07857)
 
-4. click "F5" on your keybord. Then you will get the result.
-![image](https://github.com/user-attachments/assets/559d3c38-31c0-4d00-82d8-61836b1e78ec)
+4. Click "trust and continue" (red button)
+![image](https://github.com/user-attachments/assets/f833d964-f899-4f1a-969c-3af4a7cffa69)
+
+5. click "F5" on your keybord. Then you will get the result.
+![image](https://github.com/user-attachments/assets/b1b650f1-b991-4674-8759-d4e590195b9b)
+
 
 ## Code explanation
