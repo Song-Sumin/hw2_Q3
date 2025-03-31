@@ -58,11 +58,8 @@ for (int s = 0; s < N; ++s)
 {
 
 	float u_offset = dis(gen);
- 
 	float v_offset = dis(gen);
- 
 	Ray ray = camera.getRay(i, j, u_offset, v_offset);
- 
 	color += scene.trace(ray, 0.0f, std::numeric_limits<float>::max());
  
 }
