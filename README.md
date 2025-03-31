@@ -1,11 +1,11 @@
-# HW2 readme
+# HW2_Q3 readme
 ## What you need
 You need Visual Studio 2022 and window 11 OS.
 
 And C/C++ should be available in VS2022.
 
 ## About
-This project is about Phong Shading.
+This project is about Antialiasing.
 To view the result image, open result.png, 
 and if you want an explanation of the code, scroll down below.
 
@@ -20,11 +20,11 @@ and if you want an explanation of the code, scroll down below.
 3. Open hw2_Q1-master. Double click hw2_Q1-master and opne OpenglViewer.sln
 ![image](https://github.com/user-attachments/assets/0c2fa2b8-444e-46a4-8aee-49ec6ea07857)
 
-4. Click "trust and continue" (red button)
-![image](https://github.com/user-attachments/assets/f833d964-f899-4f1a-969c-3af4a7cffa69)
-
-5. click "F5" on your keybord. Then you will get the result.
+4. click "F5" on your keybord. Then you will get the result.
 ![image](https://github.com/user-attachments/assets/b1b650f1-b991-4674-8759-d4e590195b9b)
 
 
 ## Code explanation
+'''
+#include <random>
+'''
