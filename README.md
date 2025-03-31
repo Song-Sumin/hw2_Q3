@@ -29,6 +29,7 @@ and if you want an explanation of the code, scroll down below.
 #include <random>
 
 The code #include <random> is used for random variables.
+
 ------------
 
 std::random_device rd;
@@ -38,6 +39,7 @@ std::uniform_real_distribution<> dis(0.0, 1.0);
 Using rd for generate float num between 0.0 and 1.0.
 
 Mersenne Twister is high-quality random number generator.
+
 ----------
 
 const int N = 64; // Number of samples per pixel
@@ -45,6 +47,7 @@ const int N = 64; // Number of samples per pixel
 ![image](https://github.com/user-attachments/assets/3ab8bf85-8c51-4296-92e5-94dd7a975337)
 
 Set samples of the image within each pixel 64.
+
 ----------
 vec3 color(0.0f);
 for (int s = 0; s < N; ++s)
@@ -61,6 +64,7 @@ Using dis(gen) to generate random variables used to create ray. When making ray,
 After that, the scene.trace function is called, and the results are stored in the color value. 
 
 Finally, the accumulated sample values are divided by the sample count N to calculate the average.
+
 -----------
 Ather code is same as hw2_Q2.
 
