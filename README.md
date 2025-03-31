@@ -27,4 +27,34 @@ and if you want an explanation of the code, scroll down below.
 ## Code explanation
 '''
 #include <random>
+
+The code #include <random> is used for random variables.
+------------
+
+std::random_device rd;
+std::mt19937 gen(rd());
+std::uniform_real_distribution<> dis(0.0, 1.0);
+
+Using rd for generate float num between 0.0 and 1.0.
+
+Mersenne Twister is high-quality random number generator.
+----------
+
+const int N = 64; // Number of samples per pixel
+
+![image](https://github.com/user-attachments/assets/3ab8bf85-8c51-4296-92e5-94dd7a975337)
+Set samples of the image within each pixel 64.
+----------
+vec3 color(0.0f);
+for (int s = 0; s < N; ++s)
+{
+	float u_offset = dis(gen);
+	float v_offset = dis(gen);
+	Ray ray = camera.getRay(i, j, u_offset, v_offset);
+	color += scene.trace(ray, 0.0f, std::numeric_limits<float>::max());
+}
+color /= static_cast<float>(N);
+
+
+
 '''
